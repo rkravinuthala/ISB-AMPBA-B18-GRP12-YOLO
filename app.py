@@ -27,7 +27,7 @@ with st.sidebar:
         "Select Model Confidence", 25, 100, 40)) / 100
 
 # Creating main page heading
-st.header(":blue[ISB AMPBA-B18 - Capstone Project]", divider='rainbow')
+st.header(":rainbow[ISB AMPBA-B18 - Capstone Project]")
 st.header("Non Recyclable Scrap Object Detection")
 st.caption(':rainbow[Upload a image with Scrap material.]')
 st.caption('Then click the :red[Detect Objects] button and check the result.')
