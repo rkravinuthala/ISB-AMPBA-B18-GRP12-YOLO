@@ -17,7 +17,7 @@ st.set_page_config(
 
 # Creating sidebar
 with st.sidebar:
-    st.header(":violet[Data Input Menu for your model]", divider='rainbow')     # Adding header to sidebar
+    st.header(":violet[Data Input Menu for your model]")     # Adding header to sidebar
     # Adding file uploader to sidebar for selecting images
     source_img = st.file_uploader(
         "Upload an image by clicking on the Browse button (or) you can drag and drop an image...", type=("jpg", "jpeg", "png", 'bmp', 'webp'))
